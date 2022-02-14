@@ -31,13 +31,25 @@ function Home() {
           </links>
         </contact>
       </header>
+      <div className="bg"/>
+      <div className="solid">
       <AboutContains>
-        <Panel name="Education"/>
-        <Panel name="Skils"/>
-        <Panel name="Experience"/>
+        <Panel name="Education">
+          <Point title="Electrical Engineering" years="2016-2022" subtitle="B.Eng, Ryerson University"></Point>
+          <Point title="High School Diploma" years="2012-2016" subtitle="Richmond Hill High School"/>
+        </Panel>
+        <Panel name="Skils">
+          
+        </Panel>
+        <Panel name="Experience">
+          <Point title="Line Cook" years="2019-2022" subtitle="FAB Restaurant Concepts"/>
+          <Point title="Sweet Baby Boy" years="1998-2022" subtitle="Everywhere All the Time"/>
+        </Panel>
       </AboutContains>
  
       </div>
+      </div>
+      
     </div>
   );
 }
@@ -72,7 +84,22 @@ function Panel(props){
         <div className="App-panelHead">
         <p className="App-bodyHeader">{props.name}</p>
         </div>
+        <ul>{props.children}</ul>
+        
       </ul>
     </about>
   );
+}
+
+function Point(props){
+  return(
+      
+        <div>
+          <p className="App-bodyTitle">{props.title}</p>
+          <p className="App-bodysubTitle">{props.subtitle}</p>
+          <p className="App-bodysubTitle">{props.years}</p>
+        </div>
+        
+      
+  )
 }

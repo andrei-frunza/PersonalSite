@@ -5,10 +5,9 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 import linked_img from './assets/linkedin.png';
 import git_img from './assets/GitHub.png';
-import BGmov from './assets/BGmov.mp4';
 import { getValue } from '@testing-library/user-event/dist/utils';
 
-export function Start() {
+function Start() {
     
 
     let navigate=useNavigate();
@@ -50,6 +49,7 @@ export function Start() {
     </div>
   );
 }
+export default Start;
 
 function PageList(){
 
