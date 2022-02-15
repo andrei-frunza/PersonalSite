@@ -1,67 +1,52 @@
 import React from 'react';
 import './App.css';
-import linked_img from './assets/linkedin.png';
-import git_img from './assets/GitHub.png';
+import './assets/andrei.jpg';
+import ryerson from './assets/ryerson.png';
+import java from './assets/java.png';
+import C from './assets/C.png';
+import Cplus from './assets/C++.png';
+import JS from './assets/JS.png';
+import Matlab from './assets/matlab.png';
+import etap from './assets/etap.svg';
+
+
 
 function Home() {
   return (
-    <div className="App" id="home">
-      <div className="App-animation">
-      
+    <div id="home">
       <div className="App-aboutBG">
         <p className="App-aboutName">About Me</p>
-      <AboutContains>
-        <Panel name="Education">
+
+        <content className="App-body">
+          <p>My Name is Andrei Frunza.</p>
           
-        </Panel>
-        <Panel name="Skills">
+          <p>I'm in my final year at Ryerson University, completing my bachelors in Electrical Engineering.</p>
+            
           
-        </Panel>
-        <Panel name="Experience">
-         
-        </Panel>
-      </AboutContains>
+          <p>Throughout my time at Ryerson, I worked in the following languages,</p>
+          
+          <div className="App-links">
+            <img src={java} className="App-ImageR"/>
+            <img src={C} className="App-ImageR"/>
+            <img src={Cplus} className="App-ImageR"/>
+            <img src={JS} className="App-ImageR"/>
+          </div>
+
+          <p>and with the following programs</p>
+
+          <div className="App-links">
+            <img src={Matlab} className="App-ImageR"/>
+            <img src={etap} className="App-ImageR"/>
+      
+          </div>
+
+        </content>
  
       </div>
-      </div>
+      
       
     </div>
   );
 }
 
 export default Home;
-
-function AboutContains(props){
-  return(
-    <about>
-      <ul className="App-body">{props.children}</ul>
-    </about>
-  );
-}
-
-function Panel(props){
-  return(
-    <about>
-      <ul className="App-about">
-        <div className="App-panelHead">
-        <p className="App-bodyHeader">{props.name}</p>
-        </div>
-        <ul>{props.children}</ul>
-        
-      </ul>
-    </about>
-  );
-}
-
-function Point(props){
-  return(
-      
-        <div>
-          <p className="App-bodyTitle">{props.title}</p>
-          <p className="App-bodysubTitle">{props.subtitle}</p>
-          <p className="App-bodysubTitle">{props.years}</p>
-        </div>
-        
-      
-  )
-}

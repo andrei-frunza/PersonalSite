@@ -15,13 +15,13 @@ class App extends Component {
               </Routes>
         </div> 
       </BrowserRouter>*/
-      <div className="App">
+      
       <div className="App-bg">
       <Start/>
       <Home/>
       <Header/>
       </div>
-      </div>
+      
     );
   }
 }

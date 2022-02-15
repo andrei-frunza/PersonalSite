@@ -32,6 +32,7 @@
   font-size: calc(10px + 5vmin);
   color: white;
   font-weight: bold;
+  text-align: center;
 }
 
 .App-startName:hover {
@@ -115,14 +116,17 @@
 
 .App-body {
   justify-content: center;
+  text-align: center;
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
+  font-size: calc(15px + 1vmin);
+  color: #ffffff;
   width: 100%;
 }
 
 .App-aboutBG {
   background-color: #00000077;
-  height:70vh;
+  min-height:70vh;
   width:100%;
   margin-left: auto;
   margin-right:auto;
@@ -261,3 +265,8 @@ html{
 }
 #top{}
 
+.App-ImageR {
+  width: 12%;
+  margin-bottom: 0%;
+  vertical-align: middle;
+}
