@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/PersonalSite/static/css/main.a639baec.css",
-    "main.js": "/PersonalSite/static/js/main.af6f9487.js",
+    "main.css": "/PersonalSite/static/css/main.1b6053bf.css",
+    "main.js": "/PersonalSite/static/js/main.1da6b46f.js",
     "static/js/787.71e672d5.chunk.js": "/PersonalSite/static/js/787.71e672d5.chunk.js",
     "static/media/matlab.png": "/PersonalSite/static/media/matlab.97cf16e2d819157f45c9.png",
     "static/media/woodBG.jpg": "/PersonalSite/static/media/woodBG.c6dc1951e91666bfa376.jpg",
     "static/media/andrei.jpg": "/PersonalSite/static/media/andrei.ab98df623c58a691e8da.jpg",
     "static/media/java.png": "/PersonalSite/static/media/java.5d5cffa04d820ba0644c.png",
     "static/media/etap.svg": "/PersonalSite/static/media/etap.8309e647c26c40470429800c4f339c28.svg",
-    "static/media/ryerson.png": "/PersonalSite/static/media/ryerson.82223f8e5147f46e7f8f.png",
     "static/media/C.png": "/PersonalSite/static/media/C.83dfa097dfa94f707a41.png",
     "static/media/C++.png": "/PersonalSite/static/media/C++.1240ce157b70fb399c6c.png",
     "static/media/linkedin.png": "/PersonalSite/static/media/linkedin.6db38494fa89b0473425.png",
     "static/media/JS.png": "/PersonalSite/static/media/JS.edc1b02f51f37057cb88.png",
     "index.html": "/PersonalSite/index.html",
-    "main.a639baec.css.map": "/PersonalSite/static/css/main.a639baec.css.map",
-    "main.af6f9487.js.map": "/PersonalSite/static/js/main.af6f9487.js.map",
+    "main.1b6053bf.css.map": "/PersonalSite/static/css/main.1b6053bf.css.map",
+    "main.1da6b46f.js.map": "/PersonalSite/static/js/main.1da6b46f.js.map",
     "787.71e672d5.chunk.js.map": "/PersonalSite/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a639baec.css",
-    "static/js/main.af6f9487.js"
+    "static/css/main.1b6053bf.css",
+    "static/js/main.1da6b46f.js"
   ]
 }
