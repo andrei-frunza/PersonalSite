@@ -9,6 +9,7 @@
   background-image: url("./assets/woodBG.jpg");
   background-attachment: fixed;
   width: 100%;
+  min-height: 100%;
   background-size: contain;
 }
 
@@ -267,6 +268,7 @@ html{
 
 .App-ImageR {
   width: 12%;
+  margin:1vh;
   margin-bottom: 0%;
   vertical-align: middle;
 }

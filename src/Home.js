@@ -7,6 +7,7 @@ import Cplus from './assets/C++.png';
 import JS from './assets/JS.png';
 import Matlab from './assets/matlab.png';
 import etap from './assets/etap.svg';
+import multi from './assets/MultiSim.png';
 
 
 
@@ -15,6 +16,10 @@ function Home() {
   const [cLang, setC] = useState(false);
   const [cplus, setCplus] = useState(false);
   const [js, setJs] = useState(false);
+
+  const [mat, setMat] = useState(false);
+  const [et, setEt] = useState(false);
+  const [mt, setMt] = useState(false);
 
   const handleJava = () =>{
     setC(false);
@@ -39,7 +44,25 @@ function Home() {
     setCplus(false);
     setJava(false);
     setJs(!js);
+    
   }
+
+  const handleMat = () =>{
+    setMat(!mat);
+    setMt(false);
+    setEt(false);
+  }
+  const handleMt = () =>{
+    setMt(!mt);
+    setMat(false);
+    setEt(false);
+  }
+  const handleEt = () =>{
+    setEt(!et);
+    setMt(false);
+    setMat(false);
+  }
+
 
 
   const Panel = (props) =>{
@@ -111,10 +134,26 @@ function Home() {
           <p>and with the following programs</p>
 
           <div className="App-links">
-            <img src={Matlab} className="App-ImageR"/>
-            <img src={etap} className="App-ImageR"/>
-      
+            <img src={Matlab} onClick={handleMat} className="App-ImageR"/>
+            <img src={etap} onClick={handleEt} className="App-ImageR"/>
+            <img src={multi} onClick={handleMt} className="App-ImageR"/>
           </div>
+          {mat &&<Panel name="Matlab Simulink"
+              experience="Implemented in the design and testing of PID controllers. Used to create digital models for practical AC and DC motors, model motion of an
+              electric vehicle, model generators for wind turbines connected to the power grid, and more."
+              courses="Control Systems, Power Systems, Electric Machines, Alternative Energy Systems."
+            />
+            }
+              
+            {et &&<Panel name="ETAP"
+              experience="Used to create single line diagrams of electrical systems, investigate transient stability, and design system protection components. "
+              courses="Power Systems, Power Systems Protection Control."
+            />}
+              
+            {mt &&<Panel name="MultiSim"
+              experience="Used to create electrical circuits, exploring the use of operational amplifiers, transistors, and circuit design fundamentals."
+              courses="Electric Circuit Analysis, Electronic Circuits."
+            />}
 
         </content>
  
