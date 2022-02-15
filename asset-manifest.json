@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/andrei-frunza.github.io/static/css/main.bf5efc56.css",
-    "main.js": "/andrei-frunza.github.io/static/js/main.4e9bcdbc.js",
-    "static/js/787.71e672d5.chunk.js": "/andrei-frunza.github.io/static/js/787.71e672d5.chunk.js",
-    "static/media/BGmov.mp4": "/andrei-frunza.github.io/static/media/BGmov.e8ab2d19e38223b72be1.mp4",
-    "static/media/woodBG.jpg": "/andrei-frunza.github.io/static/media/woodBG.c6dc1951e91666bfa376.jpg",
-    "static/media/andrei.jpg": "/andrei-frunza.github.io/static/media/andrei.ab98df623c58a691e8da.jpg",
-    "index.html": "/andrei-frunza.github.io/index.html",
-    "main.bf5efc56.css.map": "/andrei-frunza.github.io/static/css/main.bf5efc56.css.map",
-    "main.4e9bcdbc.js.map": "/andrei-frunza.github.io/static/js/main.4e9bcdbc.js.map",
-    "787.71e672d5.chunk.js.map": "/andrei-frunza.github.io/static/js/787.71e672d5.chunk.js.map"
+    "main.css": "/PersonalSite/static/css/main.bdcce092.css",
+    "main.js": "/PersonalSite/static/js/main.ff9393cf.js",
+    "static/js/787.71e672d5.chunk.js": "/PersonalSite/static/js/787.71e672d5.chunk.js",
+    "static/media/woodBG.jpg": "/PersonalSite/static/media/woodBG.c6dc1951e91666bfa376.jpg",
+    "index.html": "/PersonalSite/index.html",
+    "main.bdcce092.css.map": "/PersonalSite/static/css/main.bdcce092.css.map",
+    "main.ff9393cf.js.map": "/PersonalSite/static/js/main.ff9393cf.js.map",
+    "787.71e672d5.chunk.js.map": "/PersonalSite/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf5efc56.css",
-    "static/js/main.4e9bcdbc.js"
+    "static/css/main.bdcce092.css",
+    "static/js/main.ff9393cf.js"
   ]
 }
