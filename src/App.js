@@ -1,13 +1,12 @@
 import React,{Component} from 'react';
-import {BrowserRouter,Route,Routes, useLocation} from 'react-router-dom';
 
 import Home from './Home.js';
 import Start from './Start.js';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import Header from'./Header.js';
  
 class App extends Component {
   render() {
-    return (      
+    return (      /* NOT USING THIS ANYMORE
       <BrowserRouter>
         <div>
               <Routes>
@@ -15,7 +14,14 @@ class App extends Component {
                   <Route path="/" element={<Start/>}/>
               </Routes>
         </div> 
-      </BrowserRouter>
+      </BrowserRouter>*/
+      <div className="App">
+      <div className="App-bg">
+      <Start/>
+      <Home/>
+      <Header/>
+      </div>
+      </div>
     );
   }
 }

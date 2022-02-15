@@ -1,17 +1,14 @@
 .App {
   text-align: center;
-  background-image: url("./assets/woodBG.jpg");
   background-size:auto;
   background-repeat: no-repeat;
   min-height:100vh;
+  width:100%;
 }
-
-#myVideo {
-  position:fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+.App-bg {
+  background-image: url("./assets/woodBG.jpg");
+  background-attachment: fixed;
+  width: 100%;
 }
 
 .Start {
@@ -20,13 +17,18 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  margin:auto;
   animation: transitionIn 1s;
 }
 
 .App-startName {
   margin:1vh;
   font-size: calc(10px + 10vmin);
+  color: white;
+  font-weight: bold;
+}
+.App-aboutName {
+  margin:1vh;
+  font-size: calc(10px + 5vmin);
   color: white;
   font-weight: bold;
 }
@@ -39,8 +41,7 @@
   margin:1vh;
   min-height:50px;
   min-width:50px;
-  height:15%;
-  width:15;
+  width:3.5%;
 }
 
 .App-startLinks:hover {
@@ -53,7 +54,7 @@
 }
 
 .App-header {
-  background-color: #879dca00;
+  background-color: #0000003b;
   height: 25vh;
   display: flex;
   flex-direction: row;
@@ -70,7 +71,6 @@
   text-decoration: none;
   font-weight: bold;
   justify-content: center;
-  height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -84,7 +84,6 @@
 }
 
 .App-contact {
-  height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: right;
@@ -115,8 +114,16 @@
 .App-body {
   justify-content: center;
   display: flex;
-  flex-direction: row;
-  margin:1vw; 
+  flex-direction:row;
+  width: 100%;
+}
+
+.App-aboutBG {
+  background-color: #00000077;
+  height:70vh;
+  width:100%;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .App-about {
@@ -164,13 +171,6 @@
   width:100%;
 }
 
-.App-photo {
-  width:15vw;
-  height:15vw;
-  max-width:400px;
-  max-height:400px;
-}
-
 .App-projects {
   margin-left:5vh;
   min-height: 20vh;
@@ -180,7 +180,7 @@
 }
 
 .my-node-enter {
-  transform:translateX(-110%);
+  transform:translateX(-100%);
 }
 .my-node-enter-active {
   transform: translateX(0%);
@@ -191,7 +191,7 @@
   
 }
 .my-node-exit-active {
-  transform: translateX(-110%);
+  transform: translateX(-100%);
   transition: all 1000ms;
 }
 
@@ -242,17 +242,20 @@ ul {
 }
 li {
   list-style-position: inside;
+  padding:0;
 }
-.bg {
-  background-image: url("./assets/glass.jpg");
-  position:absolute;
-  opacity: 15%;
-  height: 75vh;
-  width:100%
-}
+
 .solid {
-  position: absolute;
+  
   margin-left:8vw;
   margin-right:8vw;
-  height:75vh;
+  
 }
+
+#home {}
+html{
+  scroll-behavior: smooth;
+  margin: 0;
+}
+#top{}
+
