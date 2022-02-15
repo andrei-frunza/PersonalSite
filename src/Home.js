@@ -12,15 +12,13 @@ function Home() {
         <p className="App-aboutName">About Me</p>
       <AboutContains>
         <Panel name="Education">
-          <Point title="School of Hard Knocks" years="2016-2022" subtitle="the Streets"></Point>
-          <Point title="High School Diploma" years="2012-2016" subtitle="Richmond Hill High School"/>
+          
         </Panel>
-        <Panel name="Skils">
+        <Panel name="Skills">
           
         </Panel>
         <Panel name="Experience">
-          <Point title="Line Cook" years="2019-2022" subtitle="FAB Restaurant Concepts"/>
-          <Point title="Sweet Baby Boy" years="1998-2022" subtitle="Everywhere All the Time"/>
+         
         </Panel>
       </AboutContains>
  
