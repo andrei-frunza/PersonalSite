@@ -321,3 +321,17 @@ html{
   text-align: left;
   margin-left: 20%;
 }
+
+.accordProject {
+  font-size: calc(14px + 2vh);
+  margin-bottom: 2vh;
+  font-weight: bold;
+  width: fit-content;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+}
+.accordProject:hover {
+  opacity:50%;
+}

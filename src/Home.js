@@ -7,7 +7,6 @@ import Cplus from './assets/C++.png';
 import JS from './assets/JS.png';
 import Matlab from './assets/matlab.png';
 import etap from './assets/etap.svg';
-import { CSSTransition} from 'react-transition-group';
 
 
 
@@ -56,7 +55,8 @@ function Home() {
               <p classNIame="contentrow">{props.courses}</p> 
             </ul>
             
-           
+              <a className="accordProject">Related Projects</a>
+            
           </div>
       
     );
