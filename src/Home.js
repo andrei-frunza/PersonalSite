@@ -26,24 +26,37 @@ function Home() {
     setCplus(false);
     setJs(false);
     setJava(!javaLang);
+    setMat(false);
+    setMt(false);
+    setEt(false);
   }
   const handleC = () =>{
     setC(!cLang);
     setCplus(false);
     setJs(false);
     setJava(false);
+    setMat(false);
+    setMt(false);
+    setEt(false);
   }
   const handleCplus = () =>{
     setC(false);
     setCplus(!cplus);
     setJs(false);
     setJava(false);
+    setMat(false);
+    setMt(false);
+    setEt(false);
   }
   const handleJs = () =>{
     setC(false);
     setCplus(false);
     setJava(false);
     setJs(!js);
+    setMat(false);
+    setMt(false);
+    setEt(false);
+    
     
   }
 
@@ -51,16 +64,28 @@ function Home() {
     setMat(!mat);
     setMt(false);
     setEt(false);
+    setC(false);
+    setCplus(false);
+    setJs(false);
+    setJava(false);
   }
   const handleMt = () =>{
     setMt(!mt);
     setMat(false);
     setEt(false);
+    setC(false);
+    setCplus(false);
+    setJs(false);
+    setJava(false);
   }
   const handleEt = () =>{
     setEt(!et);
     setMt(false);
     setMat(false);
+    setC(false);
+    setCplus(false);
+    setJs(false);
+    setJava(false);
   }
 
 
