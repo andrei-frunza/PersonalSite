@@ -119,10 +119,10 @@ function Home() {
         <content className="App-body">
           <p>My Name is Andrei Frunza.</p>
           
-          <p>I am a graduate from Ryerson University, having recently completed my bachelors in Electrical Engineering.</p>
+          <p>I am a graduate from Toronto Metropolitan University, having recently completed my bachelors in Electrical Engineering.</p>
             
           
-          <p>Throughout my time at Ryerson, I worked in the following languages,</p>
+          <p>Throughout my time at Toronto Metropolitan, I worked in the following languages</p>
           
           <div className="App-links">
             <img onClick={handleJava} src={java} className="App-ImageR"/>
@@ -130,10 +130,10 @@ function Home() {
             <img onClick={handleCplus} src={Cplus} className="App-ImageR"/>
             <img onClick={handleJs} src={JS} className="App-ImageR"/>
 
-            {javaLang &&<Panel name="Java"
-              experience="Created several projects over the course of the school semester, in order to develop an in-depth understanding of key concepts related to object-oriented
-              engineering fundamentals."
-              courses="Object Oriendted Programming."
+            {javaLang &&<Panel name= "Java"
+              experience="Developed the front and back end of a banking application, capable of user authentication, account generation and deletion. Data was saved in a .txt
+              file which was then parsed on repeated uses."
+              courses="Object Oriented Programming."
             />
             }
               

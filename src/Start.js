@@ -55,7 +55,7 @@ function PageList(){
             <div className="App-links">
                     <a href="#home" className= "App-startHeader">About</a>
                     <a href="#home" className= "App-startHeader">Projects</a>
-                    <a href="#home" className= "App-startHeader">Resume</a>
+                    <a href="https://drive.google.com/file/d/11wtrwvNYlC8UA-1Sz2Frc1kbNX1CXl6X/view" className= "App-startHeader">Resume</a>
                     <a href="#home" className= "App-startHeader">Contact Me</a>
             </div>
             </CSSTransition>
